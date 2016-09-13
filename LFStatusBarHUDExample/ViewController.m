@@ -25,7 +25,7 @@
     [LFStatusBarHUD showSucess:@"下载成功"];
 }
 - (IBAction)fail:(id)sender {
-    [LFStatusBarHUD showError:@"下载成功"];
+    [LFStatusBarHUD showError:@"下载失败"];
 }
 - (IBAction)loading:(id)sender {
     [LFStatusBarHUD showLoading:@"正在加载..."];
